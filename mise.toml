@@ -1,0 +1,9 @@
+[env]
+_.file = ".env"
+
+[tools]
+go = "latest"
+
+"go:github.com/air-verse/air" = { version = "latest" }
+"go:github.com/golangci/golangci-lint/v2/cmd/golangci-lint" = { version = "latest" }
+"go:mvdan.cc/gofumpt" = { version = "latest" }
